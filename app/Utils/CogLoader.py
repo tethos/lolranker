@@ -3,7 +3,7 @@ import os
 
 class CogLoader:
     """
-    CogLoader: Loads Cogs for a bot from a directory.
+    Loads Cogs for a bot from a directory.
     Raises error if directory doesn't exist or is empty (excluding __init__.py).
     """
     @staticmethod
