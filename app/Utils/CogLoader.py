@@ -2,6 +2,10 @@ import os
 
 
 class CogLoader:
+    """
+    CogLoader: Loads Cogs for a bot from a directory.
+    Raises error if directory doesn't exist or is empty (excluding __init__.py).
+    """
     @staticmethod
     def load_cogs(bot, cogs_dir):
         if not os.path.exists(cogs_dir):
