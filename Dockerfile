@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python3.10", "main.py"]
+CMD ["python3.10", "bot.py"]
