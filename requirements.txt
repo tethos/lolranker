@@ -1,4 +1,6 @@
 py-cord
+ezcord
 requests
 python-dotenv
 pytest
+aiosqlite

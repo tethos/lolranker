@@ -2,7 +2,7 @@ from discord.ext import commands
 from discord.commands import slash_command
 
 
-class ProfileCog(commands.Cog):
+class Profile(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -12,4 +12,4 @@ class ProfileCog(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(ProfileCog(bot))
+    bot.add_cog(Profile(bot))
